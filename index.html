@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Card for Alex</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cream: '#FFF8F0',
+              coral: '#FF6B6B',
+              gold: '#FFD700',
+              turquoise: '#4ECDC4',
+              'navy-deep': '#0a192f',
+            },
+            fontFamily: {
+              pacifico: ['Pacifico', 'cursive'],
+              'dancing-script': ['Dancing Script', 'cursive'],
+            },
+          },
+        },
+      }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      body, html {
+        font-family: 'Dancing Script', cursive;
+        background: #FFF8F0;
+      }
+      .font-pacifico { font-family: 'Pacifico', cursive !important; }
+      .font-dancing-script { font-family: 'Dancing Script', cursive !important; }
+      .bg-cream { background: #FFF8F0 !important; }
+      .bg-coral { background: #FF6B6B !important; }
+      .bg-gold { background: #FFD700 !important; }
+      .bg-turquoise { background: #4ECDC4 !important; }
+      .text-navy-deep { color: #0a192f !important; }
+      .text-coral { color: #FF6B6B !important; }
+      .text-gold { color: #FFD700 !important; }
+      .text-turquoise { color: #4ECDC4 !important; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
