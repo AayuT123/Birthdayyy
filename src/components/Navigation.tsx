@@ -1,5 +1,4 @@
-import React from 'react';
-import { RightArrowIcon } from './Icons';
+// ...existing code...
 
 interface NavigationProps {
   currentPage: number;

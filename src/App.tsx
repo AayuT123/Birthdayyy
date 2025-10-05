@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { CoverPage } from './components/CoverPage';
-import { CollagePage } from './components/CollagePage';
 import { LetterPage } from './components/LetterPage';
 import { PrintLetterPage } from './components/PrintLetterPage';
 import { Navigation } from './components/Navigation';

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+// ...existing code...
 
 const COLORS = ['#FF6B6B', '#FFD700', '#4ECDC4', '#0a192f'];
 
